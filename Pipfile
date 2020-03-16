@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+ipykernel = "*"
+
+[packages]
+django = "*"
+opencv-python = "*"
+numpy = "*"
+threading = "*"
+face-recognition = "*"
+gzip = "*"
+firebase-admin = "*"
+google = "*"
+
+[requires]
+python_version = "3.7"
